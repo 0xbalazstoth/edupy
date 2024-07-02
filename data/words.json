@@ -1,0 +1,24 @@
+{
+  "words": [
+    {
+      "word": "apple",
+      "language": "English"
+    },
+    {
+      "word": "manzana",
+      "language": "Spanish"
+    },
+    {
+      "word": "pomme",
+      "language": "French"
+    },
+    {
+      "word": "Apfel",
+      "language": "German"
+    },
+    {
+      "word": "りんご",
+      "language": "Japanese"
+    }
+  ]
+}

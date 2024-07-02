@@ -1,0 +1,183 @@
+0. Different methods of collecting datasets
+  - Scraping
+  - Public API-s
+  - Public datasets
+    - Loading dataset, documents
+
+NLP
+- Word Frequency
+
+
+1. Text Normalization
+   Lowercasing: Convert all text to lowercase to maintain uniformity.
+   Removing Punctuation: Strip punctuation marks to simplify the text.
+   Expanding Contractions: Convert contractions (e.g., "can't" to "cannot").
+   Accents and Diacritics Removal: Remove accents and diacritics for consistency.
+   HTML Tag Removal: Strip HTML tags from text.
+   Whitespace Removal: Remove extra spaces, tabs, and newlines.
+   Special Characters Removal: Remove special characters and symbols that are not needed.
+
+2. Tokenization
+   Word Tokenization: Split text into individual words.
+   Sentence Tokenization: Split text into individual sentences.
+   Subword Tokenization: Use techniques like Byte Pair Encoding (BPE) for languages with rich morphology.
+   Character Tokenization: Split text into individual characters for specific use cases.
+
+3. Removing Stop Words
+   Stop Words List: Utilize predefined lists of common stop words to remove them from the text.
+   Custom Stop Words: Create and use a custom list of stop words relevant to the specific context.
+
+4. Lemmatization and Stemming
+   Stemming: Reduce words to their root form (e.g., "running" to "run").
+   Lemmatization: Use context to reduce words to their base form (e.g., "better" to "good").
+
+5. Part-of-Speech Tagging
+   POS Tagging: Assign part-of-speech tags to each word (e.g., noun, verb, adjective).
+   Chunking: Group words into chunks based on their POS tags (e.g., noun phrases).
+
+6. Named Entity Recognition (NER)
+   Entity Extraction: Identify and classify named entities in text (e.g., names of people, places, organizations).
+
+8. Handling Imbalanced Data
+   Resampling Techniques: Use oversampling or undersampling to balance classes.
+   Synthetic Data Generation: Generate synthetic examples using techniques like SMOTE (Synthetic Minority Over-sampling Technique).
+
+9. Handling Categorical Data
+   One-Hot Encoding: Convert categorical text data into binary vectors.
+   Label Encoding: Assign numerical values to categorical text data.
+
+10. Feature Engineering
+    N-grams: Create bigrams, trigrams, etc., for capturing context.
+    Bag-of-Words (BoW): Represent text as the occurrence of words in a fixed-size vocabulary.
+    TF-IDF: Transform text data into a matrix of TF-IDF features.
+    Word Embeddings: Generate word vectors using models like Word2Vec, GloVe, or FastText.
+    Sentence Embeddings: Use models like BERT, Sentence-BERT to get fixed-size vectors for entire sentences.
+
+11. Dimensionality Reduction
+    Principal Component Analysis (PCA): Reduce dimensions of the feature set.
+    t-SNE: Visualize high-dimensional data in 2D or 3D space.
+
+12. Data Augmentation
+    Synonym Replacement: Replace words with their synonyms to create new data.
+    Back Translation: Translate text to another language and back to augment data.
+    Random Insertion/Deletion: Randomly insert or delete words to diversify the dataset.
+
+13. Handling Long Texts
+    Text Summarization: Generate concise summaries of long texts.
+    Text Chunking: Break down long texts into smaller, manageable chunks.
+
+14. Text Classification
+    Supervised Learning: Use labeled data to train models for tasks like sentiment analysis, topic classification.
+    Unsupervised Learning: Cluster text data into groups based on similarities.
+
+15. Sequence Labeling
+    Tagging Sequences: Label sequences of text for tasks like NER, POS tagging.
+
+16. Data Splitting
+    Train-Test Split: Divide data into training and testing sets.
+    Cross-Validation: Implement k-fold cross-validation to ensure robust evaluation.
+
+17. Model Evaluation Metrics
+    Accuracy, Precision, Recall, F1-Score: Evaluate classification models.
+    Confusion Matrix: Visualize the performance of classification models.
+    BLEU, ROUGE: Use these metrics for evaluating language generation tasks.
+
+18. Data Storage and Retrieval
+    Databases: Store and retrieve text data efficiently using databases like MongoDB, Elasticsearch.
+    Data Versioning: Track changes and ensure reproducibility using tools like DVC (Data Version Control).
+
+19. Sentiment Analysis
+    Sentiment Classification: Classify text as positive, negative, or neutral.
+    Aspect-based Sentiment Analysis: Determine sentiment related to specific aspects or features within text.
+
+20. Text Similarity
+    Cosine Similarity: Measure the similarity between two text documents using cosine similarity.
+    Jaccard Similarity: Compare text documents based on shared terms using Jaccard similarity.
+    Embedding-based Similarity: Use word or sentence embeddings to calculate similarity between texts.
+
+21. Language Detection
+    Language Identification: Automatically detect the language of a given text.
+    Multilingual Processing: Handle text data in multiple languages and provide language-specific processing.
+
+22. Text Generation
+    Language Models: Use pre-trained language models like GPT to generate coherent text.
+    Conditional Text Generation: Generate text based on a given prompt or condition.
+
+23. Text-to-Speech (TTS) and Speech-to-Text (STT)
+    Text-to-Speech: Convert written text into spoken words using TTS systems.
+    Speech-to-Text: Transcribe spoken words into written text using STT systems.
+
+24. Coreference Resolution
+    Entity Resolution: Identify and link all mentions of the same entity within a text.
+
+25. Topic Modeling
+    Latent Dirichlet Allocation (LDA): Discover abstract topics within a collection of documents.
+    Non-negative Matrix Factorization (NMF): Extract latent topics from text data using matrix factorization techniques.
+
+26. Question Answering Systems
+    Extractive QA: Extract answers from a given passage of text.
+    Generative QA: Generate answers based on a given question using language models.
+
+27. Text Complexity and Readability
+    Readability Scores: Calculate readability scores (e.g., Flesch-Kincaid, Gunning Fog) to assess text complexity.
+    Text Simplification: Automatically simplify complex text to make it more readable.
+
+28. Paraphrase Detection and Generation
+    Paraphrase Detection: Identify if two sentences have the same meaning.
+    Paraphrase Generation: Generate paraphrases for a given sentence.
+
+29. Contextual Spell Checking and Grammar Correction
+    Spell Checking: Automatically correct spelling errors in text.
+    Grammar Correction: Identify and correct grammatical errors in text.
+
+30. Knowledge Graphs and Ontologies
+    Entity Linking: Link entities in text to a knowledge base or ontology.
+    Knowledge Graph Construction: Build knowledge graphs from text data to represent relationships between entities.
+
+31. Bias and Fairness in NLP
+    Bias Detection: Identify and measure biases in text data and models.
+    Bias Mitigation: Implement techniques to reduce bias in NLP models.
+
+32. Data Privacy and Anonymization
+    Data Anonymization: Remove or mask personally identifiable information (PII) from text data.
+    Data Privacy Compliance: Ensure text processing methods comply with data privacy regulations (e.g., GDPR).
+
+33. Active Learning for NLP
+    Human-in-the-Loop: Use active learning to involve human annotators in the model training process, improving model performance with fewer labeled examples.
+
+34. Transfer Learning
+    Fine-Tuning Pre-trained Models: Adapt pre-trained models like BERT, GPT, or RoBERTa for specific NLP tasks with limited data.
+
+35. Incremental Learning
+    Continual Learning: Update models incrementally with new data without retraining from scratch, useful for applications like news aggregation or real-time monitoring.
+
+36. Federated Learning
+    Decentralized Training: Train models across multiple decentralized devices while keeping data localized for privacy and security.
+
+37. Multi-modal NLP
+    Text and Image Processing: Combine text and image data for tasks like visual question answering (VQA) or caption generation.
+    Speech and Text Integration: Integrate speech and text data for tasks like transcribing and analyzing spoken content.
+
+38. Custom NLP Pipelines
+    Pipeline Customization: Create custom processing pipelines tailored to specific NLP tasks, combining multiple preprocessing, feature extraction, and modeling steps.
+
+39. Ethical NLP
+    Ethical Considerations: Implement ethical guidelines in NLP processing, ensuring fairness, transparency, and accountability in model development and deployment.
+
+40. Stylistic Text Generation
+    Style Transfer: Transform the style of text while preserving its content (e.g., converting formal text to informal).
+    Poetry and Prose Generation: Generate creative texts like poems or stories with specific stylistic elements.
+
+41. Deceptive Text Detection
+    Fake News Detection: Identify and classify fake or misleading news articles.
+    Spam Detection: Detect and filter out spam messages in text data.
+
+42. Code-Switching Handling
+    Code-Switching Detection: Identify instances where multiple languages are mixed within a single text.
+    Mixed-Language Processing: Handle text that contains multiple languages, often seen in multilingual regions.
+
+43. Mock data Generation
+
+44. Emotion Detection
+    Emotion Classification: Detect and classify emotions (e.g., happiness, anger, sadness) expressed in text.
+    Emotion Intensity Prediction: Predict the intensity or strength of emotions conveyed in text.
