@@ -9,6 +9,9 @@ line
 text.
 """
 
+# string hossza
+length = len(greeting)
+
 x = y = z = "Same value"
 print(x, y, z)
 
@@ -27,3 +30,10 @@ escaping = 'Hello "There"!'  # \', \\, \n, \r, \t, \b
 # input
 name = input("Enter your name: ")
 print(name)
+
+test: str = "asd"
+print(type(test))
+
+# Fordítási időben (nem értékelődik ki) str marad
+test = 5  # Futásidőben (értékelődik ki) int-re változik
+print(type(test))

@@ -62,3 +62,15 @@ for row in matrix:
     for column in row:
         print(column, end=" ")
     print()
+
+# Végtelen ciklus
+# while True:
+#     print("Infinite loop")
+
+# break, continue
+# break: ciklus megszakítása
+# continue: ciklus folytatása
+for i in range(10):
+    if i == 5:
+        break
+    print(i)

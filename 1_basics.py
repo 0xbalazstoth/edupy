@@ -1,9 +1,9 @@
 # https://docs.python.org/3/library/index.html
 
 # Írás konzolra
-print("Helló, Világ! \nSzia, Világ!")
+print("Hello, World! \nPython!")
 
 """
-Helló, Világ!
-Szia, Világ!
+Hello, World!
+Python!
 """
