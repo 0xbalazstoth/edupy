@@ -15,10 +15,7 @@ length = len(greeting)
 x = y = z = "Same value"
 print(x, y, z)
 
-char = greeting[0]
-greeting_len = len(greeting)
-slicing_first_name = name[0:4]  # start = [:4], end = [5:]
-print(slicing_first_name)
+char = "a"  # Karakter
 
 upper = greeting.upper()
 lower = greeting.lower()

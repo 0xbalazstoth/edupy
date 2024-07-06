@@ -4,6 +4,9 @@ class Car:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+        self.__serial_number = (
+            "12345"  # Privát attribútum, csak az osztályon belül érhető el
+        )
 
     def description(self):
         print(f"Name of the car: {self.name}, age: {20} years.")

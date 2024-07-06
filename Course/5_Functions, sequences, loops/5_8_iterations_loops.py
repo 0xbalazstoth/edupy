@@ -1,3 +1,7 @@
+# Iterable
+# Az iterable olyan objektum, amely tartalmazható egy for ciklusban.
+# Az iterable-ök közé tartoznak a listák, tuple-ök, szótárak, és egyéb kollekciók.
+
 # for ciklus listán
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:

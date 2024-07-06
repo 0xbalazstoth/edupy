@@ -1,14 +1,14 @@
 # Encapsulation (Egységbe zárás)
 # Az osztályokban az attribútumokat és a metódusokat egy egységbe zárjuk, azaz az osztályba.
+# Tehát nem a konkrét objektumokon keresztül érhetőek el, hanem getter és setter metódusokon keresztül.
 
 
 class Device:
     def __init__(self, brand, model, year):
-        self.__brand = brand  # Ez egy privát attribútum
-        self.__model = model  # Ez egy privát attribútum
-        self.__year = year  # Ez egy privát attribútum
-
-        # Tehát nem a konkrét objektumokon keresztül érhetőek el, hanem getter és setter metódusokon keresztül.
+        self.__brand = brand  # privát attribútum (__)
+        self.__model = model  # privát attribútum (__)
+        self.__year = year  # privát attribútum (__)
+        self._test = "test"  # protected (_), csak egy konvenció, nem valósítja meg a privát hozzáférést, jelzésértékű
 
     # Getter metódus a brand attribútumhoz
     def get_brand(self):
@@ -40,6 +40,8 @@ class Device:
 
 # Példa az osztály használatára
 my_device = Device("Apple", "iPhone 12", 2020)
+my_device._test = "test2"
+print(my_device._test)
 
 # A privát attribútumok elérése getter metódusokkal
 print("Brand:", my_device.get_brand())
