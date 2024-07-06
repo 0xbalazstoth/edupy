@@ -18,11 +18,11 @@ greet()
 
 
 # Függvény bemeneti paraméterekkel
-def greet(name):
+def greet_person(name):
     print(f"Hello, {name}")
 
 
-greet("Bob")
+greet_person("Bob")
 
 
 # Függvény visszatérési értékkel

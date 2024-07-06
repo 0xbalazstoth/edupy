@@ -1,5 +1,8 @@
 # Polimorfizmus
 # A polimorfizmus lehetővé teszi, hogy azonos metódusokat hívjunk meg különböző osztályok példányain
+# Fordítási időben
+
+
 class Position:
     def show_position(self):
         pass

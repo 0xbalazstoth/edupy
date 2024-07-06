@@ -5,6 +5,11 @@
 # else: Csak akkor fut le a kód, ha nincs hiba
 # finally: (opcionális) Olyan kód, amit ígyis-úgyis lefuttatnánk, annak ellenére hogy volt-e hiba vagy sem, erőforrás felszabadítás
 
+# Exception chaining: Kivétel továbbítása
+# Az egyik kivétel továbbítása egy másik kivételnek
+# https://www.tutorialspoint.com/python/python_exception_chaining.htm
+
+
 # Nullával való osztás
 try:
     x = 1 / 0
