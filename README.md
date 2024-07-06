@@ -13,3 +13,7 @@
 # CodeSnap
 
 - Taking screenshot of code
+
+# Kód vizualizálva
+
+- https://pythontutor.com/render.html#mode=display

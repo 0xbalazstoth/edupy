@@ -1,4 +1,15 @@
 # Függvény
+# - Egy vagy több utasításokból álló kódblokk
+# - Újrafelhasználható
+# - Tiszta kód
+# - Olvasható, karbantartható
+
+# Szignatúra
+# def function_name(param1, param2, ...):
+#     pass
+# A szignatúra tartalmazza a függvény nevét, a bemeneti paramétereket és a visszatérési értéket.
+
+
 def greet():
     print("Hello, World!")
 
@@ -68,14 +79,3 @@ def print_info(**kwargs):
 
 
 print_info(name="Bob", age="24", city="Budapest")
-
-
-# Beágyazott függvények
-def outer_function(text):
-    def inner_function():
-        print(text)
-
-    inner_function()
-
-
-outer_function("Hello from the inner function!")

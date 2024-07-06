@@ -1,6 +1,10 @@
 # RegEx, Reguláris Kifejezések
 # Karakterek sorozata, amivel egy mintát (pattern) hozunk létre
 # Teszteléshez: https://regex101.com/
+# https://github.com/ziishaned/learn-regex/blob/master/translations/README-hu.md
+# https://regexone.com/
+# https://regexlearn.com/cheatsheet
+
 import re
 
 # Pont (.)
