@@ -1,8 +1,7 @@
 # Duck typing (Ha úgy jár, mint egy kacsa, úgy úszik, mint egy kacsa, és úgy hápog, mint egy kacsa, akkor valószínűleg kacsa.)
 # - Programozásban ez úgy értelmezhető, hogy ha egy objektum rendelkezik a szükséges metódusokkal és tulajdonságokkal, akkor használható az adott helyen,
 #   akkor kezelhető úgy, mintha egy adott típusú objektum lenne, anélkül, hogy formálisan deklarálnánk annak típusát.
-# Például: Ha van egy "Book" osztály, akkor elvárjuk, hogy az osztály rendelkezzen egy "title" és egy "author" tulajdonsággal például,
-#          adja vissza a könyv címét és szerzőjét, esetleg oldalak számát.
+# Például: Ha van egy "CreditCard" osztály, akkor elvárjuk, hogy az osztály rendelkezzen olyan metódusokkal, mint a "pay" és a "get_balance" például.
 # A Duck typing inkább a kényelemről szól, mintsem a biztonságról, mivel a típushibák csak futás közben derülnek ki.
 
 
@@ -83,17 +82,47 @@ except TypeError as e:
 # A Python egy dinamikusan típusozott nyelv, ami azt jelenti, hogy a változók típusa csak futás közben derül ki.
 # A változók típusa a hozzárendelt értéktől függ.
 # Hátránya, hogy a típushibák csak futás közben derülnek ki.
+# Vizualizálva: https://www.pythontutorial.net/advanced-python/dynamic-typing-in-python/
 
-# Csharp kód példa rá, csak hogy hogyan néz ki egy erősen típusos nyelvben:
-# int number = 5;
-# string text = "Hello";
-# number = "World";  // Fordítási hiba
-# text = 10;  // Fordítási hiba
 
-# Python kód példa:
-text = "Hello"
+# Módszerenek ennek kiküszöbölésére:
+# Type hinting (Típusmegjelölés)
+# - A típusmegjelölés egy olyan technika, amely segítségével a változók és a függvények típusát megjelölhetjük.
+def add(x: int, y: int) -> int:
+    return x + y
 
-# Bizonyítás, hogy a változók típusa futás közben derül ki
-print(type(text))  # <class 'str'>
-print("id of text:", id(text))
-# https://www.tutorialspoint.com/python/python_dynamic_typing.htm
+
+print(add(10, 20))
+
+
+# Try, except blokkok használata
+def safe_add(x, y):
+    try:
+        return x + y
+    except TypeError:
+        return None
+
+
+print(safe_add(10, 22))
+
+
+# isinstance() függvény használata
+def safe_multiply(x, y):
+    if not isinstance(x, int) or not isinstance(y, int):
+        return None
+    return x * y
+
+
+print(safe_multiply(10, 20))
+
+
+# mypy használata statikus típusellenőrzésre
+# - A mypy egy olyan eszköz, amely segítségével a Python kódunkat statikusan ellenőrizhetjük.
+# - Telepítés: pip install mypy
+
+
+def divide(x: int, y: int) -> float:
+    return x / y
+
+
+print(divide(10, "2"))

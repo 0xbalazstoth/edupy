@@ -10,3 +10,7 @@
 # https://www.geeksforgeeks.org/unexpected-size-of-python-objects-in-memory/
 
 # Memory manipulation (for example: cheat engine)
+
+# id()
+# - The id() function returns the memory address of an object.
+# - The memory address is a unique identifier for an object.
