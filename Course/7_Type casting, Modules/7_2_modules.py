@@ -11,7 +11,3 @@ print(sum)
 
 res_sub = mm.subtract(4, 3)
 print(res_sub)
-
-
-def aaa():
-    print("asd")

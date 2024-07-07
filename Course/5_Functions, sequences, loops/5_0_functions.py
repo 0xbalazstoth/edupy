@@ -26,7 +26,7 @@ greet_person("Bob")
 
 
 # Függvény visszatérési értékkel
-def add(a: int, b: int) -> int:
+def add(a: int, b: int) -> int:  # type hinting
     return a + b
 
 
