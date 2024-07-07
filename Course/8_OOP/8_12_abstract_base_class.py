@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
 
 # Absztrakt base osztály, amelynek egy absztrakt metódusa van
-# Az absztrakt metódusoknak nincs implementációja (törzse), csak a szignatúrájuk van
+# - Az absztrakt metódusoknak nincs implementációja (törzse), csak a szignatúrájuk van
+# - Kötelező az absztrakt metódusokat implementálni a gyermek osztályokban
 
 
 class Payment(ABC):
-
     @abstractmethod
     def process_payment(self, amount):
         pass
