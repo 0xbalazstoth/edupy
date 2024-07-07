@@ -69,10 +69,38 @@ copy_fruits = fruits.copy()  # VAGY list(fruits)
 joined_list = fruits + copy_fruits
 print(joined_list)
 
+# List comprehension: egy soros ciklus, amely lehetővé teszi a lista elemek gyors létrehozását
+# szintaxis: newlist = [expression for item in iterable if condition == True]
+# A kifejezés a jelenlegi elemet jelöli, az iterálható azonosítja az iterálható objektumot, a feltétel pedig opcionális
+words = ["phone", "window", "door"]
+filtered_words = [
+    word for word in words if "w" in word
+]  # itt a word a jelenlegi elemet jelöli, a feltétel pedig a kifejezés
+print(filtered_words)
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+letters = ["a", "b", "c"]
+combined = [f"{number} {letter}" for number in numbers for letter in letters]
+print(combined)
+
+even_nums = [num for num in numbers if num % 2 == 0]
+print(even_nums)
+
+uppercased = [word.upper() for word in words]
+print(uppercased)
+
+every_second_char_uppercased = [
+    "".join([char.upper() if i % 2 != 0 else char for i, char in enumerate(word)])
+    for word in words
+]
+print(every_second_char_uppercased)
+
 # Range
 numbers = range(1, 10)  # kezdő, vég, lépés
+new_numbers = [x for x in range(1, 5)]
+print(new_numbers)
 
-# Tuple
+# Tuple: A tuple egy olyan adatszerkezet, amely lehetővé teszi az elemek csoportosítását egyetlen változóban.
 # immutable
 coordinates = ()
 print(coordinates)

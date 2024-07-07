@@ -26,7 +26,7 @@ podium_result = "podium" if position >= 1 and position <= 3 else "non-podium pla
 print(podium_result)
 
 # pass
-# Ha az elágazás nem lehet üres (todo jellegű)
+# Ha az elágazás nem lehet üres (TODO jellegű)
 if x != 7:
     pass
 
