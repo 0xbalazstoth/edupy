@@ -65,3 +65,18 @@ else:
     print("Number is checked successfully!")
 finally:
     print("Runs everytime!")
+
+
+# Exception chaining (Kivétel továbbítása)
+def add(x, y):
+    try:
+        return x + y
+    except TypeError as e:
+        raise ValueError("Invalid value!") from e
+
+
+try:
+    result = add(10, "20")
+except ValueError as e:
+    print(f"Error occured: {e}")
+    print(f"Original exception: {e.__cause__}")

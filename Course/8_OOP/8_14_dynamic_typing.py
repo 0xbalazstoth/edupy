@@ -119,6 +119,7 @@ print(safe_multiply(10, 20))
 # mypy használata statikus típusellenőrzésre
 # - A mypy egy olyan eszköz, amely segítségével a Python kódunkat statikusan ellenőrizhetjük.
 # - Telepítés: pip install mypy
+# mypy script.py
 
 
 def divide(x: int, y: int) -> float:
