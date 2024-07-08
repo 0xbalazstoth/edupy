@@ -21,6 +21,9 @@
 # - Konstansok legyenek NAGYBETŰSEK
 # - Változók, függvények, metódusok, modulok, csomagok legyenek kisbetűsek snake_case-el
 
+# Python-ban a változók dinamikus típusúak
+# és a változók valójában referencia típusok (tehát hivatkozásokat).
+
 value = "Hello, World!"
 print(hex(id(value)))
 print(type(value))
@@ -38,3 +41,15 @@ print(type(other_value))
 value = 11
 print(hex(id(value)))
 print(type(value))
+
+del value  # Névtérből törlődik csak
+# print(value)
+
+# Memóriában még mindig létezik, de innentől kezdve a garbage collectorra van bízva
+print(hex(id(other_value)))
+print(type(other_value))
+
+# Csharp-ban a változók két fő kategóriába sorolhatók:
+# - érték típusok (value types) és referencia típusok (reference types).
+#   Az érték típusok közvetlenül a stack memóriában vannak tárolva
+# - referencia típusok a heap memóriában vannak, és a hivatkozásuk a stack memóriában van.

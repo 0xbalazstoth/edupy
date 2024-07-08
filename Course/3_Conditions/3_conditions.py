@@ -13,16 +13,23 @@ else:
     print("x is 5 or less")
 
 # Beágyazott elágazások
-position = 9
+position = 3
 
 if position >= 1 and position <= 3:
     print("podium finish")
+elif position < 1:
+    print("unknown position")
 else:
     print("non-podium placement")
 
 # Short Hand if, Ternary operator, rövidített if-else elágazás egysorban
 # value_if_true if condition else value_if_false
 podium_result = "podium" if position >= 1 and position <= 3 else "non-podium placement"
+# podium_result = (
+#     "unknown position"
+#     if position < 1
+#     else "podium" if position >= 1 and position <= 3 else "non-podium placement"
+# )
 print(podium_result)
 
 # pass
