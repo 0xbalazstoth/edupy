@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{multi\PYGZus{}line\PYGZus{}string} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Ez egy}
+\PYG{g+gp}{... }\PYG{l+s+s2}{többsoros}
+\PYG{g+gp}{... }\PYG{l+s+s2}{string\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\end{Verbatim}

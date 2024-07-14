@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n}{friend\PYGZus{}name}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYGZdq{}\PYG{n}{XYZ}
+\PYG{+w}{    }\PYG{n}{friend1}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{friend2}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{friend3}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{friend\PYGZus{}name}
+\end{Verbatim}

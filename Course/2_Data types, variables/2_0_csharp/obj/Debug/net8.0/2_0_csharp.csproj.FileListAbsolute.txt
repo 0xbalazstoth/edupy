@@ -1,0 +1,15 @@
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/bin/Debug/net8.0/2_0_csharp
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/bin/Debug/net8.0/2_0_csharp.deps.json
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/bin/Debug/net8.0/2_0_csharp.runtimeconfig.json
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/bin/Debug/net8.0/2_0_csharp.dll
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/bin/Debug/net8.0/2_0_csharp.pdb
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/2_0_csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/2_0_csharp.AssemblyInfoInputs.cache
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/2_0_csharp.AssemblyInfo.cs
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/2_0_csharp.csproj.CoreCompileInputs.cache
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/2_0_csharp.sourcelink.json
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/2_0_csharp.dll
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/refint/2_0_csharp.dll
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/2_0_csharp.pdb
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/2_0_csharp.genruntimeconfig.cache
+/Users/0xbalazstoth/Desktop/edupy/Course/2_Data types, variables/2_0_csharp/obj/Debug/net8.0/ref/2_0_csharp.dll

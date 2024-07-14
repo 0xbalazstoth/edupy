@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{greeting} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Helló\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{name} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}XYZ\PYGZdq{}}
+\end{Verbatim}

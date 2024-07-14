@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{value}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Hello, World!\PYGZdq{}}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{hex}\PYG{p}{(}\PYG{n}{id}\PYG{p}{(}\PYG{n}{value}\PYG{p}{)))}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nb}{type}\PYG{p}{(}\PYG{n}{value}\PYG{p}{))}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZbs{}n\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{value}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{hex}\PYG{p}{(}\PYG{n}{id}\PYG{p}{(}\PYG{n}{value}\PYG{p}{)))}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nb}{type}\PYG{p}{(}\PYG{n}{value}\PYG{p}{))}
+
+\PYG{n}{other\PYGZus{}value}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{value}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{hex}\PYG{p}{(}\PYG{n}{id}\PYG{p}{(}\PYG{n}{other\PYGZus{}value}\PYG{p}{)))}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nb}{type}\PYG{p}{(}\PYG{n}{other\PYGZus{}value}\PYG{p}{))}
+
+\PYG{n}{value}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{11}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{hex}\PYG{p}{(}\PYG{n}{id}\PYG{p}{(}\PYG{n}{value}\PYG{p}{)))}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nb}{type}\PYG{p}{(}\PYG{n}{value}\PYG{p}{))}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZbs{}n\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{del}\PYG{+w}{ }\PYG{l+s}{value}\PYG{+w}{  }\PYG{l+s}{\PYGZsh{}}\PYG{+w}{ }\PYG{l+s}{Névtérből}\PYG{+w}{ }\PYG{l+s}{törlődik}\PYG{+w}{ }\PYG{l+s}{csak}
+\PYGZsh{}\PYG{+w}{ }\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{value}\PYG{p}{)}
+\end{Verbatim}

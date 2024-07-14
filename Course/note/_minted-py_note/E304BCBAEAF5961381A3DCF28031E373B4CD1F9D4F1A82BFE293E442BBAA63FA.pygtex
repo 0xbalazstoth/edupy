@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{and\PYGZus{}result} \PYG{o}{=} \PYG{k+kc}{True}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{or\PYGZus{}result} \PYG{o}{=} \PYG{k+kc}{True}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{not\PYGZus{}result} \PYG{o}{=} \PYG{k+kc}{False}
+\end{Verbatim}

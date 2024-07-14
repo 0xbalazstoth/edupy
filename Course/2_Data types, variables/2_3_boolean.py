@@ -14,11 +14,11 @@
 
 # Aritmetikus
 # +, -, *, /, %
-sum_nums = 5 + 5
-sub_nums = 5 - 5
-mul_nums = 5 * 5
-div_nums = 5 / 5
-mod_nums = 5 % 5
+sum_nums = 5 + 5  # Összeadás
+sub_nums = 5 - 5  # Kivonás
+mul_nums = 5 * 5  # Szorzás
+div_nums = 5 / 5  # Osztás
+mod_nums = 5 % 5  # Maradékos osztás
 
 # Értékadó
 # =, +=, -=
@@ -36,14 +36,17 @@ less_than_or_equal = 5 <= 5
 
 # Logikai
 # and, or, not
-and_result = True and False  # True, ha mindkettő igaz
-or_result = True or False  # True, ha legalább az egyik igaz
+number = 5
+and_result = number == 5 and number != 2  # True, ha mindkettő igaz
+or_result = number == 10 or number == 5  # True, ha legalább az egyik igaz
 not_result = not True  # True, ha az érték hamis
 
 # Identitás (Objektumok összehasonlítása)
 # is, is not
-is_result = 5 is 5
-is_not_result = 5 is not 5
+x = 9
+y = x
+is_result = x is y
+is_not_result = x is not y
 
 # Tartalmazó (Membership)
 # in, not in
@@ -71,7 +74,10 @@ print(result)  # Output: 20
 # Logikai műveletek precedenciája
 # Kifejezés: True or False and False
 # Az and (ÉS) operátor előbb hajtódik végre, mint az or (VAGY)
+preres = False and False  # False
 result = True or False and False
+res1 = True or False
+res2 = False or True  # True
 print(result)  # Output: True
 
 # Összehasonlító és aritmetikai műveletek precedenciája
@@ -85,26 +91,3 @@ print(result)  # Output: False
 # A not (tagadás) operátor előbb hajtódik végre, mint az or (VAGY)
 result = not True or False
 print(result)  # Output: False
-
-# Vegyes példák
-# Kifejezés: 3 + 4 * 2 / (1 - 5) ** 2
-# A ** (hatványozás) operátor előbb hajtódik végre, majd a zárójelek,
-# ezt követően a * és / (szorzás és osztás), végül az összeadás
-result = 3 + 4 * 2 / (1 - 5) ** 2
-print(result)  # Output: 3.5
-
-# Példák:
-name = "John Doe"
-age = 23
-
-is_valid = True
-has_access = False
-is_doe_in_name = "Doe" in name
-is_blabla_in_name = "blabla" not in name
-print(1 == 1)
-print(2 != 1)
-print(age > 18)
-print(age >= 18)
-print(age < 35)
-print(age <= 35)
-print(age == 18 or age == 23)

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n}{multi\PYGZus{}line\PYGZus{}string}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Ez egy}
+\PYG{l+s}{    többsoros}
+\PYG{l+s}{    string\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\end{Verbatim}

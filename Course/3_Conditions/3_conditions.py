@@ -1,5 +1,3 @@
-result = None
-
 # Elágazások
 # if, elif, else
 

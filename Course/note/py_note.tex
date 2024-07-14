@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+
+\usepackage{listings}
+\usepackage{array}
+\usepackage{inconsolata}
+\usepackage{color}
+\usepackage{matlab-prettifier}
+\usepackage{amsmath}
+\AddToHook{cmd/section/before}{\clearpage}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{minted}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+\tcbuselibrary{listingsutf8}
+\usepackage{fontawesome}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,arrows.meta, positioning, calc, shapes.geometric, shadows}
+\graphicspath{{assets/}}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\newtcolorbox{pyoutput}[2][]{
+  colback=white,
+  colframe=black,
+  rounded corners,
+  title=#2,
+  fonttitle=\bfseries,
+  #1
+}
+
+\newenvironment{pycode}
+  {\VerbatimEnvironment
+   \begin{center}
+   \begin{minted}[
+     frame=lines,
+     framesep=2mm,
+     baselinestretch=1.2,
+     bgcolor=white,
+     fontsize=\footnotesize,
+     linenos,
+     rulecolor=\color{black}
+   ]{matlab}}
+  {\end{minted}
+   \end{center}} % Ends the centering environment
+
+\titleformat{\subsection}
+  {\normalfont\small\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\small\bfseries}{\thesubsubsection}{1em}{}
+
+\newcommand{\fullwidthimage}[1]{
+    \begin{center}
+        \makebox[\textwidth]{\includegraphics[width=\paperwidth]{#1}}
+    \end{center}
+}
+
+\newcommand{\customwidthimage}[2]{
+    \begin{center}
+        \makebox[\textwidth]{\includegraphics[width=#2]{#1}}
+    \end{center}
+}
+
+\newcommand{\customwidthimagenocenter}[2]{
+    \makebox[\textwidth]{\includegraphics[width=#2]{#1}}
+}
+
+\newcommand{\subtitle}[1]{
+    \posttitle{
+        \par\end{center}
+        \begin{center}\large#1\end{center}
+        \vskip0.5em}
+}
+
+\renewcommand\contentsname{Tartalomjegyzék}
+
+\newminted{pycon}{bgcolor=bg, linenos=true, tabsize=4}
+
+\begin{document}
+
+\title{Python programozás}
+\author{Jegyzet}
+\date{}
+\maketitle
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+\include{alapok}
+\include{primitiv_valtozok}
+\include{logikai}
+
+\end{document}

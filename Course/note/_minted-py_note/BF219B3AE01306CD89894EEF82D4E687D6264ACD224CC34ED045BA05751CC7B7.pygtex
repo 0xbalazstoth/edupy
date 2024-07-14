@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n}{is\PYGZus{}equal}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{10}
+\PYG{+w}{    }\PYG{n}{is\PYGZus{}not\PYGZus{}equal}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }!\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{5}
+\PYG{+w}{    }\PYG{n}{is\PYGZus{}greater}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{5}
+\PYG{+w}{    }\PYG{n}{is\PYGZus{}less}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m+mi}{5}
+\PYG{+w}{    }\PYG{n}{is\PYGZus{}greater\PYGZus{}or\PYGZus{}equal}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{10}
+\PYG{+w}{    }\PYG{n}{is\PYGZus{}less\PYGZus{}or\PYGZus{}equal}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{l+m+mi}{5}
+\end{Verbatim}

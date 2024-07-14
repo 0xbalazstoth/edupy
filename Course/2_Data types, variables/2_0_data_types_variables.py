@@ -42,6 +42,7 @@ value = 11
 print(hex(id(value)))
 print(type(value))
 
+print("\n")
 del value  # Névtérből törlődik csak
 # print(value)
 
@@ -53,3 +54,7 @@ print(type(other_value))
 # - érték típusok (value types) és referencia típusok (reference types).
 #   Az érték típusok közvetlenül a stack memóriában vannak tárolva
 # - referencia típusok a heap memóriában vannak, és a hivatkozásuk a stack memóriában van.
+
+
+message: str = "message"
+message = 5  # Fordítási időben még mindig string, de futásidőben már int

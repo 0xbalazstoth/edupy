@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Helló, világ!}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Írás konzolra}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Kommentek}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Primitív adattípusok}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Szöveg (str)}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Karakter}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}String-ek összefűzése}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Ugyanazon érték megadása több változónak egyszerre}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Többsoros string}{5}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Alapvető string műveletek}{5}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}Bemenet}{6}{subsubsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.2}Szám (Number)}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Egész szám (int)}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Lebegőpontos szám (float)}{6}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Komplex szám (complex)}{6}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Aritmetikai műveletek}{7}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Értékadó operátorok}{7}{subsubsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.3}Logikai (Boolean)}{8}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Igazságtábla}{8}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Összehasonlítás (érték alapján)}{8}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Logikai műveletek}{9}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Objektumok összehasonlítása}{9}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Hogyan tárolódnak a memóriában a változók?}{10}{subsection.2.4}%

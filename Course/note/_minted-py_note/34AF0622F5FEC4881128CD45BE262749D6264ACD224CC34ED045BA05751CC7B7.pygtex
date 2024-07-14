@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{number}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{5}
+\PYG{n}{and\PYGZus{}result}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{number}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{+w}{ }\PYG{n}{and}\PYG{+w}{ }\PYG{n}{number}\PYG{+w}{ }!\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{+w}{  }\PYGZsh{}\PYG{+w}{ }\PYG{n}{True}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ha}\PYG{+w}{ }\PYG{n}{mindkettő}\PYG{+w}{ }\PYG{n}{igaz}
+\PYG{n}{or\PYGZus{}result}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{number}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{n}{or}\PYG{+w}{ }\PYG{n}{number}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{+w}{  }\PYGZsh{}\PYG{+w}{ }\PYG{n}{True}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ha}\PYG{+w}{ }\PYG{n}{legalább}\PYG{+w}{ }\PYG{n}{az}\PYG{+w}{ }\PYG{n}{egyik}\PYG{+w}{ }\PYG{n}{igaz}
+\PYG{n}{not\PYGZus{}result}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{not}\PYG{+w}{ }\PYG{n}{True}\PYG{+w}{  }\PYGZsh{}\PYG{+w}{ }\PYG{n}{True}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ha}\PYG{+w}{ }\PYG{n}{az}\PYG{+w}{ }é\PYG{n}{rték}\PYG{+w}{ }\PYG{n}{hamis}
+\end{Verbatim}

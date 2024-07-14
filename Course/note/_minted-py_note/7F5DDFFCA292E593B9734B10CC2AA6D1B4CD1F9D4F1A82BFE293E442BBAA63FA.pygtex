@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{friend\PYGZus{}name} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}XYZ\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{friend1} \PYG{o}{=} \PYG{n}{friend2} \PYG{o}{=} \PYG{n}{friend3} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}XYZ\PYGZdq{}}
+\end{Verbatim}

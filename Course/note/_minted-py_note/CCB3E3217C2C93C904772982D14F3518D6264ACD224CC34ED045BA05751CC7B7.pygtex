@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{x}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{9}
+\PYG{n}{y}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{x}
+\PYG{n}{is\PYGZus{}result}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{n}{is}\PYG{+w}{ }\PYG{n}{y}
+\PYG{n}{is\PYGZus{}not\PYGZus{}result}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{n}{is}\PYG{+w}{ }\PYG{n}{not}\PYG{+w}{ }\PYG{n}{y}
+\end{Verbatim}

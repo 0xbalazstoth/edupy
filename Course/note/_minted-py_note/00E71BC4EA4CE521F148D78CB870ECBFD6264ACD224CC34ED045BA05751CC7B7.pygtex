@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{message}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Ez egy üzenet!\PYGZdq{}}
+\PYG{n}{upper\PYGZus{}message}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{message}\PYG{p}{.}\PYG{n}{upper}\PYG{p}{()}\PYG{+w}{ }\PYGZsh{}\PYG{+w}{ }\PYG{n}{Nagybetűssé}\PYG{+w}{ }\PYG{n}{alakítás}
+\PYG{n}{lower\PYGZus{}message}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{upper\PYGZus{}message}\PYG{p}{.}\PYG{n}{lower}\PYG{p}{()}\PYG{+w}{ }\PYGZsh{}\PYG{+w}{ }\PYG{n}{Kisbetűssé}\PYG{+w}{ }\PYG{n}{alakítás}
+\PYG{n}{remove\PYGZus{}whitespace}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{message}\PYG{p}{.}\PYG{n}{strip}\PYG{p}{()}\PYG{+w}{ }\PYGZsh{}\PYG{+w}{ }\PYG{n}{VEZETŐ}\PYG{+w}{ }é\PYG{n}{s}\PYG{+w}{ }\PYG{n}{VÉG}\PYG{+w}{ }\PYG{n}{szóközök}\PYG{+w}{ }\PYG{n}{eltávolítása}
+\PYG{n}{replace\PYGZus{}message}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{message}\PYG{p}{.}\PYG{n}{replace}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}üzenet\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}szöveg\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYGZsh{}\PYG{+w}{ }\PYG{n}{Csere}
+\end{Verbatim}

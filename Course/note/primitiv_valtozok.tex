@@ -1,0 +1,269 @@
+\section{Primitív adattípusok}
+\begin{quote}
+    Másnéven, előre meghatározott (alapvető) adattípusok.
+\end{quote}
+\begin{quote}
+    Értékadás szintaxisa: \texttt{<változó> = <érték>}
+\end{quote}
+
+\begin{itemize}
+    \item Szöveg (Text): str (string)
+    \item Szám (Number): int, float, complex
+    \item Logikai (Boolean): bool
+    \item Értékhiány (None): NoneType
+\end{itemize}
+
+\subsection{Szöveg (str)}
+\begin{pycode}
+    greeting = "Helló"
+    name = "XYZ"
+\end{pycode}
+\begin{minted}{pycon}
+>>> greeting = "Helló"
+>>> name = "XYZ"
+\end{minted}
+
+\subsubsection{Karakter}
+\begin{pycode}
+    character = "X"
+\end{pycode}
+\begin{minted}{pycon}
+>>> character = "X"
+\end{minted}
+
+\subsubsection{String-ek összefűzése}
+\begin{pycode}
+    greeting_user = greeting + ", " + name
+\end{pycode}
+\begin{minted}{pycon}
+>>> greeting_user = "Helló, XYZ"
+\end{minted}
+
+\subsubsection{Ugyanazon érték megadása több változónak egyszerre}
+\begin{pycode}
+    friend_name = "XYZ
+    friend1 = friend2 = friend3 = friend_name
+\end{pycode}
+\begin{minted}{pycon}
+>>> friend_name = "XYZ"
+>>> friend1 = friend2 = friend3 = "XYZ"
+\end{minted}
+
+\subsubsection{Többsoros string}
+\begin{pycode}
+    multi_line_string = """Ez egy
+    többsoros
+    string"""
+\end{pycode}
+\begin{minted}{pycon}
+>>> multi_line_string = """Ez egy
+... többsoros
+... string"""
+\end{minted}
+
+\subsubsection{Alapvető string műveletek}
+\begin{pycode}
+message = "Ez egy üzenet!"
+upper_message = message.upper() # Nagybetűssé alakítás
+lower_message = upper_message.lower() # Kisbetűssé alakítás
+remove_whitespace = message.strip() # VEZETŐ és VÉG szóközök eltávolítása
+replace_message = message.replace("üzenet", "szöveg") # Csere
+\end{pycode}
+\begin{minted}{pycon}
+>>> message = "Ez egy üzenet!"
+>>> upper_message = "EZ EGY ÜZENET!"
+>>> lower_message = "ez egy üzenet!"
+>>> remove_whitespace = "Ez egy üzenet!"
+>>> replace_message = "Ez egy szöveg!"
+\end{minted}
+
+\subsubsection{Bemenet}
+\begin{quote}
+    \texttt{input()} függvény: A felhasználótól vár bemenetet, és azt string-ként adja vissza.
+\end{quote}
+\begin{pycode}
+    user_input = input("Kérem, adja meg a nevét: ")
+    greeting_message = greeting + ", " + user_input
+\end{pycode}
+\begin{minted}{pycon}
+>>> user_input = input("Kérem, adja meg a nevét: ")
+Kérem, adja meg a nevét: XYZ
+>>> greeting_message = "Helló, XYZ"
+\end{minted}
+
+\subsection{Szám (Number)}
+\subsubsection{Egész szám (int)}
+\begin{pycode}
+    integer_number = 10
+\end{pycode}
+\begin{minted}{pycon}
+>>> integer_number = 10
+\end{minted}
+
+\subsubsection{Lebegőpontos szám (float)}
+\begin{pycode}
+    float_number = 10.5
+\end{pycode}
+
+\begin{minted}{pycon}
+>>> float_number = 10.5
+\end{minted}
+
+\subsubsection{Komplex szám (complex)}
+\begin{quote}
+    \texttt{a + bj}, ahol \texttt{a} és \texttt{b} valós számok, \texttt{j} pedig az imaginárius egység.
+\end{quote}
+\begin{pycode}
+    complex_number = 1 + 2j
+\end{pycode}
+\begin{minted}{pycon}
+>>> complex_number = 1 + 2j
+\end{minted}
+
+\subsubsection{Aritmetikai műveletek}
+\begin{pycode}
+    addition = 10 + 5 # Összeadás
+    subtraction = 10 - 5 # Kivonás
+    multiplication = 10 * 5 # Szorzás
+    division = 10 / 5 # Osztás
+    modulo = 10 % 5 # Maradékos osztás
+\end{pycode}
+\begin{minted}{pycon}
+>>> addition = 15
+>>> subtraction = 5
+>>> multiplication = 50
+>>> division = 2.0
+>>> modulo = 0
+\end{minted}
+
+\subsubsection{Értékadó operátorok}
+\begin{pycode}
+    number = 10
+    number += 5 # number = number + 5
+    number -= 5 # number = number - 5
+\end{pycode}
+\begin{minted}{pycon}
+>>> number = 10
+>>> number += 5
+>>> number -= 5
+\end{minted}
+
+\clearpage
+\subsection{Logikai (Boolean)}
+\begin{quote}
+    Két értéke lehet: \texttt{True} (1) vagy \texttt{False} (0).
+\end{quote}
+
+\subsubsection{Igazságtábla}
+\begin{minipage}{0.5\textwidth}
+    \begin{center}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{A} & \textbf{B} & \textbf{A ÉS B} \\
+            \hline
+            1 & 1 & 1 \\
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 0 \\
+            \hline
+        \end{tabular}
+
+        \begin{quote}
+            \texttt{A ÉS B} csak akkor igaz, ha \texttt{A} és \texttt{B} is igaz.
+        \end{quote}
+    \end{center}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+    \begin{center}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{A} & \textbf{B} & \textbf{A VAGY B} \\
+            \hline
+            1 & 1 & 1 \\
+            1 & 0 & 1 \\
+            0 & 1 & 1 \\
+            0 & 0 & 0 \\
+            \hline
+        \end{tabular}
+    \end{center}
+    \begin{quote}
+        \texttt{A VAGY B} akkor igaz, ha legalább az egyik igaz.
+    \end{quote}
+\end{minipage}
+
+\subsubsection{Összehasonlítás (érték alapján)}
+\begin{pycode}
+    is_equal = 10 == 10
+    is_not_equal = 10 != 5
+    is_greater = 10 > 5
+    is_less = 10 < 5
+    is_greater_or_equal = 10 >= 10
+    is_less_or_equal = 10 <= 5
+\end{pycode}
+\begin{minted}{pycon}
+>>> is_equal = True
+>>> is_not_equal = True
+>>> is_greater = True
+>>> is_less = False
+>>> is_greater_or_equal = True
+>>> is_less_or_equal = False
+\end{minted}
+
+\clearpage
+\subsubsection{Logikai műveletek}
+\begin{quote}
+    Lásd: Igazságtábla.
+\end{quote}
+\begin{pycode}
+number = 5
+and_result = number == 5 and number != 2  # True, ha mindkettő igaz
+or_result = number == 10 or number == 5  # True, ha legalább az egyik igaz
+not_result = not True  # True, ha az érték hamis
+\end{pycode}
+\begin{minted}{pycon}
+>>> and_result = True
+>>> or_result = True
+>>> not_result = False
+\end{minted}
+
+\subsubsection{Objektumok összehasonlítása}
+\begin{pycode}
+x = 9
+y = x
+is_result = x is y
+is_not_result = x is not y
+\end{pycode}
+\begin{minted}{pycon}
+>>> is_result = True
+>>> is_not_result = False
+\end{minted}
+
+\subsection{Hogyan tárolódnak a memóriában a változók?}
+\begin{minipage}{0.5\textwidth}
+\begin{pycode}
+value = "Hello, World!"
+print(hex(id(value)))
+print(type(value))
+
+print("\n")
+
+value = 10
+print(hex(id(value)))
+print(type(value))
+
+other_value = value
+print(hex(id(other_value)))
+print(type(other_value))
+
+value = 11
+print(hex(id(value)))
+print(type(value))
+
+print("\n")
+del value  # Névtérből törlődik csak
+# print(value)
+\end{pycode}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\customwidthimage{2_0_variables_memory}{10cm}
+\end{minipage}

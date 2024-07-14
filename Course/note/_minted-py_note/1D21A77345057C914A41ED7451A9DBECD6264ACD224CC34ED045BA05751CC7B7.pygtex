@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n}{addition}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{+w}{ }\PYGZsh{}\PYG{+w}{ }Ö\PYG{n}{sszeadás}
+\PYG{+w}{    }\PYG{n}{subtraction}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{+w}{ }\PYGZsh{}\PYG{+w}{ }\PYG{n}{Kivonás}
+\PYG{+w}{    }\PYG{n}{multiplication}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{+w}{ }\PYGZsh{}\PYG{+w}{ }\PYG{n}{Szorzás}
+\PYG{+w}{    }\PYG{n}{division}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{+w}{ }\PYGZsh{}\PYG{+w}{ }\PYG{n}{Osztás}
+\PYG{+w}{    }\PYG{n}{modulo}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}\PYG{+w}{ }\PYG{c}{\PYGZpc{} 5 \PYGZsh{} Maradékos osztás}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{message} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Ez egy üzenet!\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{upper\PYGZus{}message} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}EZ EGY ÜZENET!\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{lower\PYGZus{}message} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}ez egy üzenet!\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{remove\PYGZus{}whitespace} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Ez egy üzenet!\PYGZdq{}}
+\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{replace\PYGZus{}message} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Ez egy szöveg!\PYGZdq{}}
+\end{Verbatim}
