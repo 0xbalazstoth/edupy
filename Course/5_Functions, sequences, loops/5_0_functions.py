@@ -1,3 +1,10 @@
+# WET - Write Everything Twice (Írj mindent kétszer)
+# - Redundáns kód
+# - Ugyanaz a logika többször is megjelenik
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+
 # Függvény
 # - Egy vagy több utasításokból álló kódblokk
 # - Újrafelhasználható
@@ -10,6 +17,9 @@
 # A szignatúra tartalmazza a függvény nevét, a bemeneti paramétereket és a visszatérési értéket.
 
 
+# DRY - Don't Repeat Yourself (Ne ismételd magad)
+# - Redundancia (kódismétlés) csökkentése
+# - Minden tudásnak egyetlen, egyértelmű, reprezentációval kell rendelkeznie egy rendszeren belül. - Andy Hunt, Dave Thomas (The Pragmatic Programmer)
 def greet():
     print("Hello, World!")
 

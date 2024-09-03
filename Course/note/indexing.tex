@@ -1,0 +1,32 @@
+\section{Indexelés}
+
+\begin{quote}
+    Az indexelés a szövegekben és listákban való elemek elérésére szolgál.
+Az indexelés 0-tól kezdődik, azaz az első elem indexe 0, a másodiké 1, és így tovább.
+Az indexelés negatív számokkal is lehetséges, ahol az utolsó elem indexe -1, az utolsó előttié -2, és így tovább.
+\end{quote}
+
+\subsection{Pozitív indexelés}
+\begin{pycode}
+    text = "Hello, World!"
+    first_character = text[0]
+    second_character = text[1]
+    third_character = text[2]
+    last_character = text[-1]
+    second_last_character = text[-2]
+\end{pycode}
+
+\subsection{Negatív indexelés}
+\begin{pycode}
+    text = "Hello, World!"
+    last_character = text[-1]
+    second_last_character = text[-2]
+\end{pycode}
+
+\subsection{Szeletelés}
+\begin{pycode}
+    text = "Hello, World!"
+    first_word = text[:5]
+    second_word = text[7:]
+    middle_word = text[5:12]
+\end{pycode}

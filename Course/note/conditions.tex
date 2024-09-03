@@ -1,0 +1,60 @@
+\section{Feltételek}
+
+\begin{quote}
+    A feltételek segítségével tudjuk irányítani a program futását.
+    A feltételek egy logikai kifejezésből és egy vagy több utasításból állnak.
+    Ha a feltétel igaz, akkor az utasítások lefutnak, ha hamis, akkor nem.
+\end{quote}
+
+\subsection{Egyágú elágazás}
+\begin{pycode}
+    number = 5
+    if number > 0:
+        is_positive = True
+    else:
+        is_positive = False
+\end{pycode}
+
+\subsection{Többágú elágazás}
+\begin{pycode}
+    number = 5
+    if number > 0:
+        is_positive = True
+    elif number == 0:
+        is_zero = True
+    else:
+        is_negative = True
+\end{pycode}
+
+\newpage
+\subsection{Beágyazott feltételek}
+\begin{pycode}
+    number = 5
+    if number > 0:
+        if number % 2 == 0:
+            is_positive_even = True
+        else:
+            is_positive_odd = True
+    else:
+        is_negative = True
+\end{pycode}
+
+\subsection{Short-hand feltételek}
+\begin{pycode}
+    number = 5
+    is_positive = True if number > 0 else False
+\end{pycode}
+
+\subsection{Match (switch-case)}
+\begin{pycode}
+    number = 5
+    match number:
+        case 0:
+            is_zero = True
+        case 1:
+            is_one = True
+        case 2:
+            is_two = True
+        case _:
+            is_other = True
+\end{pycode}

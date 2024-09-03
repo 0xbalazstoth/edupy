@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n}{number}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m+mi}{5}
+\PYG{+w}{    }\PYG{n}{match}\PYG{+w}{ }\PYG{n}{number}\PYG{p}{:}
+\PYG{+w}{        }\PYG{k}{case}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{:}
+\PYG{+w}{            }\PYG{n}{is\PYGZus{}zero}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{True}
+\PYG{+w}{        }\PYG{k}{case}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{:}
+\PYG{+w}{            }\PYG{n}{is\PYGZus{}one}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{True}
+\PYG{+w}{        }\PYG{k}{case}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{:}
+\PYG{+w}{            }\PYG{n}{is\PYGZus{}two}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{True}
+\PYG{+w}{        }\PYG{k}{case}\PYG{+w}{ }\PYG{n}{\PYGZus{}}\PYG{p}{:}
+\PYG{+w}{            }\PYG{n}{is\PYGZus{}other}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{True}
+\end{Verbatim}

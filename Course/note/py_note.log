@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  9 JUL 2024 10:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  2 AUG 2024 17:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -780,7 +780,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count363
 \l__pdf_internal_box=\box107
-) (./py_note.aux (./alapok.aux) (./primitiv_valtozok.aux) (./logikai.aux))
+) (./py_note.aux (./alapok.aux) (./primitiv_valtozok.aux) (./logikai.aux) (./indexing.aux) (./conditions.aux) (./functions.aux))
 \openout1 = `py_note.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
@@ -857,14 +857,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 2.
-)
-\tf@toc=\write7
-\openout7 = `py_note.toc'.
-
  [2
 
 
-]
+])
+\tf@toc=\write7
+\openout7 = `py_note.toc'.
+
+ [3]
 \openout2 = `alapok.aux'.
 
  (./alapok.tex
@@ -883,7 +883,7 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 )
 \openout3 = `py_note.pyg'.
 
- (./_minted-py_note/21F90D776ED5B03506F1279EEDA9DD36D6264ACD224CC34ED045BA05751CC7B7.pygtex)) [3
+ (./_minted-py_note/21F90D776ED5B03506F1279EEDA9DD36D6264ACD224CC34ED045BA05751CC7B7.pygtex)) [4
 
 
 
@@ -915,7 +915,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
  (./_minted-py_note/E117CE56273B5E1D77C8969A06CB9FD1B4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex)
 \openout3 = `py_note.pyg'.
 
- [4
+ [5
 
 
 
@@ -935,7 +935,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
  (./_minted-py_note/00E71BC4EA4CE521F148D78CB870ECBFD6264ACD224CC34ED045BA05751CC7B7.pygtex)
 \openout3 = `py_note.pyg'.
 
- (./_minted-py_note/6C50032ED09D07BE17A3F787C16EE650B4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex) [5]
+ (./_minted-py_note/6C50032ED09D07BE17A3F787C16EE650B4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex) [6]
 \openout3 = `py_note.pyg'.
 
  (./_minted-py_note/9BBD3B74233D30C2EA98C3A0AD9F447CD6264ACD224CC34ED045BA05751CC7B7.pygtex)
@@ -962,7 +962,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
  (./_minted-py_note/40E44043CE8E8EDFB8AC1F30B419787FB4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex)
 \openout3 = `py_note.pyg'.
 
- [6] (./_minted-py_note/1D21A77345057C914A41ED7451A9DBECD6264ACD224CC34ED045BA05751CC7B7.pygtex)
+ [7] (./_minted-py_note/1D21A77345057C914A41ED7451A9DBECD6264ACD224CC34ED045BA05751CC7B7.pygtex)
 \openout3 = `py_note.pyg'.
 
  (./_minted-py_note/02135D3B6AB71488FDDBE573D47C2675B4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex)
@@ -971,7 +971,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
  (./_minted-py_note/53DDFF8D261629A519A436E576DB02FCD6264ACD224CC34ED045BA05751CC7B7.pygtex)
 \openout3 = `py_note.pyg'.
 
- (./_minted-py_note/F2EDB17BA2B7733D452C47EDF02FD36EB4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex) [7]
+ (./_minted-py_note/F2EDB17BA2B7733D452C47EDF02FD36EB4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex) [8]
 Overfull \hbox (2.61107pt too wide) in paragraph at lines 158--193
 $[]$ $[]$ 
  []
@@ -981,7 +981,7 @@ $[]$ $[]$
 (./_minted-py_note/BF219B3AE01306CD89894EEF82D4E687D6264ACD224CC34ED045BA05751CC7B7.pygtex)
 \openout3 = `py_note.pyg'.
 
- (./_minted-py_note/212356F38A066F1CB633152C0991359DB4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex) [8
+ (./_minted-py_note/212356F38A066F1CB633152C0991359DB4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex) [9
 
 ]
 \openout3 = `py_note.pyg'.
@@ -998,47 +998,121 @@ $[]$ $[]$
  (./_minted-py_note/E680074BC2D5AA5435938569D4B96FBCB4CD1F9D4F1A82BFE293E442BBAA63FA.pygtex)
 \openout3 = `py_note.pyg'.
 
+ (./_minted-py_note/365A104A43FF21B7248817B5F3CDECFCD6264ACD224CC34ED045BA05751CC7B7.pygtex)
+\openout3 = `py_note.pyg'.
+
  (./_minted-py_note/5687E1DF6F99A7D42FA32750744BEB6ED6264ACD224CC34ED045BA05751CC7B7.pygtex)
-<assets/2_0_variables_memory.png, id=191, 412.54124pt x 342.27875pt>
+<assets/2_0_variables_memory.png, id=291, 412.54124pt x 342.27875pt>
 File: assets/2_0_variables_memory.png Graphic file (type png)
 <use assets/2_0_variables_memory.png>
-Package pdftex.def Info: assets/2_0_variables_memory.png  used on input line 268.
+Package pdftex.def Info: assets/2_0_variables_memory.png  used on input line 275.
 (pdftex.def)             Requested size: 284.52756pt x 236.06812pt.
 )
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 242--107
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 249--107
 $[]$ $[]$ 
  []
 
-[9
+[10
 
-] [10 <./assets/2_0_variables_memory.png>]
+] [11 <./assets/2_0_variables_memory.png>]
 \openout2 = `logikai.aux'.
 
 
 No file logikai.tex.
-(./py_note.aux (./alapok.aux) (./primitiv_valtozok.aux) (./logikai.aux))
+\openout2 = `indexing.aux'.
+
+(./indexing.tex
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/24A54519954B37A8AAC92ABD2F07EC1BD6264ACD224CC34ED045BA05751CC7B7.pygtex)
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/39B65943757D28086DFCACF8E068060BD6264ACD224CC34ED045BA05751CC7B7.pygtex)
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/F17A7F2E0D47CDF0651660A84E6F1F82D6264ACD224CC34ED045BA05751CC7B7.pygtex)) [12
+
+
+
+
+
+
+
+]
+\openout2 = `conditions.aux'.
+
+ (./conditions.tex
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/770CFB7C213C05B3BCC7DA2219A5D0C9D6264ACD224CC34ED045BA05751CC7B7.pygtex
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3.
+)
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/5A3606985BD931D57FDBE552142DF2B7D6264ACD224CC34ED045BA05751CC7B7.pygtex) [13
+
+
+
+
+]
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/8607C379561D69D483392CE988A3DB4DD6264ACD224CC34ED045BA05751CC7B7.pygtex)
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/751F2BC9C27E5C389909C38E5B8E0CFCD6264ACD224CC34ED045BA05751CC7B7.pygtex)
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/4A5381DD3120348EA1ACD9225E24E73FD6264ACD224CC34ED045BA05751CC7B7.pygtex)) [14]
+\openout2 = `functions.aux'.
+
+ (./functions.tex
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/B18A4A72395FAAF2614825E7FE3FF6F6D6264ACD224CC34ED045BA05751CC7B7.pygtex)
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/E1B4195C08D021B7BA79AD3C27CFE27BD6264ACD224CC34ED045BA05751CC7B7.pygtex)
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/07A877F1458331825F8281E29DDD8742D6264ACD224CC34ED045BA05751CC7B7.pygtex) [15
+
+
+
+
+]
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/84334BA20CA90353AAACD69DFC7D2A5ED6264ACD224CC34ED045BA05751CC7B7.pygtex)
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/28454CA249B39D1AA9E02B89B2D3769CD6264ACD224CC34ED045BA05751CC7B7.pygtex)
+\openout3 = `py_note.pyg'.
+
+ (./_minted-py_note/6C2989F0D017841FA614834026648551D6264ACD224CC34ED045BA05751CC7B7.pygtex)) [16] (./py_note.aux (./alapok.aux) (./primitiv_valtozok.aux) (./logikai.aux) (./indexing.aux) (./conditions.aux) (./functions.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `py_note.out' has not changed.
-(rerunfilecheck)             Checksum: AA631D3119EC5140796836EECEBAF7A2;4009.
+(rerunfilecheck)             Checksum: B659586A667CE90969E38E2079E3296D;7179.
 runsystem(rm py_note.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 32713 strings out of 474116
- 672037 string characters out of 5743683
- 1937187 words of memory out of 5000000
- 54338 multiletter control sequences out of 15000+600000
- 612606 words of font info for 72 fonts, out of 8000000 for 9000
+ 32939 strings out of 474116
+ 683614 string characters out of 5743683
+ 1939187 words of memory out of 5000000
+ 54473 multiletter control sequences out of 15000+600000
+ 612924 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,8n,87p,524b,793s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on py_note.pdf (10 pages, 265390 bytes).
+Output written on py_note.pdf (16 pages, 282050 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 34 named destinations out of 1000 (max. 500000)
- 298 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 450 words of extra memory for PDF output out of 10000 (max. 10000000)
 

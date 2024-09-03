@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n}{def}\PYG{+w}{ }\PYG{l+s}{greet(name):}
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{f}\PYG{l+s}{\PYGZdq{}Hello, \PYGZob{}name\PYGZcb{}!\PYGZdq{}}
+\end{Verbatim}
